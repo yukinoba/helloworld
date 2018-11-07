@@ -1,0 +1,24 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukinoba/helloworld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukinoba/helloworld/issues"
+  },
+  "homepage": "https://github.com/yukinoba/helloworld#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "zombie": "^6.1.3"
+  }
+}
