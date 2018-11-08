@@ -5,6 +5,7 @@ node {
         checkout scm
 
    stage 'Setup'
+	sh 'export PATH=$PATH:/usr/local/bin/npm:/usr/local/bin/node'
 	sh 'npm config set registry http://registry.npmjs.org/'
         sh 'npm install'
 
